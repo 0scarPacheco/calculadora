@@ -1,0 +1,49 @@
+body{
+    background-color: darkorange;
+}
+
+h1, div{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+a{
+    background-color: darkgreen;
+    color: white;
+    font-size: 30px;
+    padding: 2px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+a:hover{
+    background-color: green;
+}
+
+table{
+    border-collapse: collapse;
+    width: 350px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+tr, td{
+    border: 1px solid black;
+    text-align: center;
+    height: 55px;
+}
+
+tr{
+    background-color: cornflowerblue;
+}
+
+#img-principal{
+    filter: drop-shadow(8px 8px 4px);
+}
+
+#img-final{
+    filter: drop-shadow(8px 8px 4px gray);
+}
